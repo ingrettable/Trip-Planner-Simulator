@@ -1,0 +1,256 @@
+{
+    "airports": [
+      {
+        "code": "AUS",
+        "latitudeDegrees": 30,
+        "latitudeMinutes": 18,
+        "longitudeDegrees": 97,
+        "longitudeMinutes": 42
+      },
+      {
+        "code": "AVL",
+        "latitudeDegrees": 36,
+        "latitudeMinutes": 0,
+        "longitudeDegrees": 82,
+        "longitudeMinutes": 82
+      },
+      {
+        "code": "BGR",
+        "latitudeDegrees": 44,
+        "latitudeMinutes": 48,
+        "longitudeDegrees": 68,
+        "longitudeMinutes": 40
+      },
+      {
+        "code": "BOS",
+        "latitudeDegrees": 32,
+        "latitudeMinutes": 22,
+        "longitudeDegrees": 71,
+        "longitudeMinutes": 2
+      },
+      {
+        "code": "BUF",
+        "latitudeDegrees": 32,
+        "latitudeMinutes": 56,
+        "longitudeDegrees": 78,
+        "longitudeMinutes": 44
+      },
+      {
+        "code": "BVT",
+        "latitudeDegrees": 44,
+        "latitudeMinutes": 28,
+        "longitudeDegrees": 73,
+        "longitudeMinutes": 9
+      },
+      {
+        "code": "CLE",
+        "latitudeDegrees": 41,
+        "latitudeMinutes": 24,
+        "longitudeDegrees": 81,
+        "longitudeMinutes": 81
+      },
+      {
+        "code": "COD",
+        "latitudeDegrees": 44,
+        "latitudeMinutes": 33,
+        "longitudeDegrees": 109,
+        "longitudeMinutes": 4
+      },
+      {
+        "code": "DCA",
+        "latitudeDegrees": 38,
+        "latitudeMinutes": 51,
+        "longitudeDegrees": 77,
+        "longitudeMinutes": 2
+      },
+      {
+        "code": "DEN",
+        "latitudeDegrees": 39,
+        "latitudeMinutes": 45,
+        "longitudeDegrees": 104,
+        "longitudeMinutes": 52
+      },
+      {
+        "code": "DFW",
+        "latitudeDegrees": 32,
+        "latitudeMinutes": 51,
+        "longitudeDegrees": 96,
+        "longitudeMinutes": 51
+      },
+      {
+        "code": "ELP",
+        "latitudeDegrees": 31,
+        "latitudeMinutes": 48,
+        "longitudeDegrees": 106,
+        "longitudeMinutes": 24
+      },
+      {
+        "code": "HOU",
+        "latitudeDegrees": 29,
+        "latitudeMinutes": 59,
+        "longitudeDegrees": 95,
+        "longitudeMinutes": 22
+      },
+      {
+        "code": "IND",
+        "latitudeDegrees": 39,
+        "latitudeMinutes": 44,
+        "longitudeDegrees": 86,
+        "longitudeMinutes": 17
+      },
+      {
+        "code": "JAX",
+        "latitudeDegrees": 33,
+        "latitudeMinutes": 56,
+        "longitudeDegrees": 118,
+        "longitudeMinutes": 24
+      },
+      {
+        "code": "LGA",
+        "latitudeDegrees": 40,
+        "latitudeMinutes": 47,
+        "longitudeDegrees": 73,
+        "longitudeMinutes": 58
+      },
+      {
+        "code": "LIT",
+        "latitudeDegrees": 34,
+        "latitudeMinutes": 44,
+        "longitudeDegrees": 92,
+        "longitudeMinutes": 14
+      },
+      {
+        "code": "MCI",
+        "latitudeDegrees": 39,
+        "latitudeMinutes":7,
+        "longitudeDegrees": 94,
+        "longitudeMinutes": 35
+      },
+      {
+        "code": "MIA",
+        "latitudeDegrees": 25,
+        "latitudeMinutes": 48,
+        "longitudeDegrees": 80,
+        "longitudeMinutes": 16
+      },
+      {
+        "code": "MOT",
+        "latitudeDegrees": 48,
+        "latitudeMinutes": 25,
+        "longitudeDegrees": 101,
+        "longitudeMinutes": 21
+      },
+      {
+        "code": "MSY",
+        "latitudeDegrees": 29,
+        "latitudeMinutes": 59,
+        "longitudeDegrees": 90,
+        "longitudeMinutes": 15
+      },
+      {
+        "code": "OMA",
+        "latitudeDegrees": 41,
+        "latitudeMinutes": 30,
+        "longitudeDegrees": 95,
+        "longitudeMinutes": 80
+      },
+      {
+        "code": "PHX",
+        "latitudeDegrees": 33,
+        "latitudeMinutes": 26,
+        "longitudeDegrees": 112,
+        "longitudeMinutes": 1
+      },
+      {
+        "code": "PWM",
+        "latitudeDegrees": 43,
+        "latitudeMinutes": 39,
+        "longitudeDegrees": 70,
+        "longitudeMinutes": 19
+      },
+      {
+        "code": "SFO",
+        "latitudeDegrees": 37,
+        "latitudeMinutes": 46,
+        "longitudeDegrees": 122,
+        "longitudeMinutes": 26
+      },
+      {
+        "code": "SEA",
+        "latitudeDegrees": 47,
+        "latitudeMinutes": 39,
+        "longitudeDegrees": 122,
+        "longitudeMinutes": 18
+      },
+      {
+        "code": "SLC",
+        "latitudeDegrees": 40,
+        "latitudeMinutes": 46,
+        "longitudeDegrees": 111,
+        "longitudeMinutes": 58
+      },
+      {
+        "code": "VGT",
+        "latitudeDegrees": 36,
+        "latitudeMinutes": 5,
+        "longitudeDegrees": 115,
+        "longitudeMinutes": 10
+      }
+      ],
+        "connections": [
+          { "source": "AUS", "target": "DFW" },
+          { "source": "AVL", "target": "IND" },
+          { "source": "BOS", "target": "BUF" },
+          { "source": "BOS", "target": "CLE" },
+          { "source": "BOS", "target": "PWM" },
+          { "source": "BUF", "target": "CLE" },
+          { "source": "BVT", "target": "BGR" },
+          { "source": "CLE", "target": "IND" },
+          { "source": "CLE", "target": "MKE" },
+          { "source": "COD", "target": "MOT" },
+          { "source": "COD", "target": "SEA" },
+          { "source": "COD", "target": "DEN" },
+          { "source": "DCA", "target": "AVL" },
+          { "source": "DCA", "target": "JAX" },
+          { "source": "DEN", "target": "DFW" },
+          { "source": "DEN", "target": "ELP" },
+          { "source": "DFW", "target": "HOU" },
+          { "source": "ELP", "target": "PHX" },
+          { "source": "HOU", "target": "LIT" },
+          { "source": "IND", "target": "MKE" },
+          { "source": "JAX", "target": "AVL" },
+          { "source": "LAX", "target": "MIA" },
+          { "source": "LAX", "target": "SFO" },
+          { "source": "LAX", "target": "VGT" },
+          { "source": "LGA", "target": "IND" },
+          { "source": "LGA", "target": "DCA" },
+          { "source": "LGA", "target": "BOS" },
+          { "source": "LGA", "target": "MIA" },
+          { "source": "MCI", "target": "DEN" },
+          { "source": "MCI", "target": "DFW" },
+          { "source": "MCI", "target": "IND" },
+          { "source": "MCI", "target": "OMA" },
+          { "source": "MIA", "target": "BOS" },
+          { "source": "MIA", "target": "JAX" },
+          { "source": "MIA", "target": "MSY" },
+          { "source": "MKE", "target": "MOT" },
+          { "source": "MOT", "target": "SEA" },
+          { "source": "MOT", "target": "DEN" },
+          { "source": "MOT", "target": "IND" },
+          { "source": "MSY", "target": "JAX" },
+          { "source": "MSY", "target": "IND" },
+          { "source": "OMA", "target": "DEN" },
+          { "source": "OMA", "target": "MOT" },
+          { "source": "OMA", "target": "IND" },
+          { "source": "PHX", "target": "LAX" },
+          { "source": "PWM", "target": "BVT" },
+          { "source": "PWM", "target": "BGR" },
+          { "source": "SFO", "target": "VGT" },
+          { "source": "SFO", "target": "DEN" },
+          { "source": "SFO", "target": "SEA" },
+          { "source": "SLC", "target": "SFO" },
+          { "source": "SLC", "target": "DEN" },
+          { "source": "SLC", "target": "SEA" },
+          { "source": "VGT", "target": "PHX" }
+        ]
+  }
